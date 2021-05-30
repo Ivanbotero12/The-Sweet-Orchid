@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #FAE9E9;
   }
   
   html {
@@ -50,7 +51,7 @@ body {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color:#D98F8F;
     text-align: center;
     cursor: pointer;
     width: 100%;
