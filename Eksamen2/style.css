@@ -1,0 +1,199 @@
+
+/*Header Area - Desktop*/
+
+/*
+.wrapper-header {
+    width: 100%;
+    margin: 0 auto;
+}
+*/
+
+header {
+    height: 150px;
+    background: #fae9e9;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/*Logo og styling*/
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 10rem;
+    padding: 2.3rem 1rem 0.4rem;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 5px;
+    padding: 2.2rem 1.5rem;
+}
+
+/*Navn baren med opret konto og log ind*/
+
+.wrapper-header nav ul {
+    float: right;
+    margin-top: -4rem;
+}
+
+.wrapper-header nav ul li {
+    border-left: 2px solid;
+    padding: 5px;
+    margin-right: 2rem;
+}
+
+.log {
+    margin-right: 3rem;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0rem 2rem;
+    color: black;
+}
+
+.undernav {
+    justify-content: center;
+    margin-top: 5rem;
+    float: none;
+    display: flex;
+}
+
+.undernav ul li {
+    margin: 2rem 4rem;
+    font-size: 25px;
+}
+
+.line {
+    border-left: 2px solid;
+    height: 30px;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    float: left;
+}
+
+section {
+    margin-top: 25rem;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+/* css for manual slide navigation */
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: black;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+/* css for automatic navigation */
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div {
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: black;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: black;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: black;
+}
+
