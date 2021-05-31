@@ -69,6 +69,7 @@ nav ul li a {
 }
 
 .undernav {
+    background: #fff;
     justify-content: center;
     margin-top: 8rem;
     float: none;
@@ -207,4 +208,38 @@ section {
 .intro {
     margin-top: 10rem;
     text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.intro h1 {
+    color: #A62E44;
+}
+
+footer {
+    background: #2B2B2B;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.kontakt {
+    margin-left: 5rem;
+}
+
+.socials {
+    text-align: center;
+    margin-top: -1rem;
+    font-size: 20px;
+    margin-right: 5rem;
+}
+
+.socials img {
+    padding: 1rem
 }
