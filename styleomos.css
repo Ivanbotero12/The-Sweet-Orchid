@@ -18,7 +18,9 @@ body {
     margin-bottom: 16px;
     padding: 0 8px;
   }
-  
+  .headerone {
+   text-align: center;   
+  }
   .card {
     box-shadow: 4px;
     margin: 8px;
