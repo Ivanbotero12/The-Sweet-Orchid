@@ -3,29 +3,44 @@
     padding: 0%;    
     }
 
-/*grid til billeder af teamet*/
-    .grid-team {
-        display: grid;
-        grid-column-gap: 50px;
-        grid-template-columns: auto auto auto;
-        padding: 10px;
-      }
-      
-      .grid-billede {
-        padding: 20px;
-        font-size: 30px;
-        text-align: center;
-      }
-/*grid til navne under billederne*/      
-      .grid-navne {
-        display: grid;
-        grid-column-gap: 50px;
-        grid-template-columns: auto auto auto;
-        padding: 10px;
-      }
-      
-      .grid-navn {
-        padding: 20px;
-        font-size: 30px;
-        text-align: center;
-      }    
+/*styling af citat*/
+.citat {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 300;
+  font-style: italic;
+}   
+/*styling af overskrifter*/
+h1 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+} 
+/*Styling af brødtekst*/
+p {
+  font-family:'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+/*Styling af grid til billeder af teamet*/
+.grid-team {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-billede {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/*Styling af grid til navne under billederne*/      
+.grid-navne {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-navn {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}    
