@@ -78,9 +78,9 @@
         </div>
 
     </header>
-
-    <section>
         
+    <section>
+
         <div class="slider">
 
             <div class="slides"> 
@@ -89,21 +89,21 @@
                 <input type="radio" name="radio-btn" id="radio2">
                 <input type="radio" name="radio-btn" id="radio3">
 
-                <div class="slide-first">
+                <div class="slide first">
 
-                    <img src="./billeder/slide1.png" alt=""> 
-
-                </div>
-
-                <div class="slide">
-                    
-                    <img src="./billeder/slide2.png" alt=""> 
+                    <img src="./billeder/1.png" alt=""> 
 
                 </div>
 
                 <div class="slide">
                     
-                    <img src="./billeder/slide3.jpg" alt=""> 
+                    <img src="./billeder/2.png" alt=""> 
+
+                </div>
+
+                <div class="slide">
+                    
+                    <img src="./billeder/3.png" alt=""> 
 
                 </div>
 
@@ -127,6 +127,10 @@
 
         </div>
 
+    </section>
+
+    <section class="intro">
+
         <div>
             <h1>Velkommen</h1>
 
@@ -138,8 +142,8 @@
 
         </div>
 
-
     </section>
+
 
 
 <!--
@@ -180,7 +184,7 @@ userFeed.run();
     setInterval(function(){
         document.getElementById('radio' + counter).checked = true;
         counter++;
-        if(counter > 4){
+        if(counter > 3){
             counter = 1;
         }
     }, 5000);
