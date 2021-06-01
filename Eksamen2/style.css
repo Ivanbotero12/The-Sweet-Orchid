@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Great+Vibes&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Infant', 'Raleway', sans-serif, 'Great Vibes', cursive;
+    
+}
 
 /*Header Area - Desktop*/
-
-/*
-.wrapper-header {
-    width: 100%;
-    margin: 0 auto;
-}
-*/
 
 header {
     height: 150px;
@@ -45,6 +47,7 @@ header {
     border-left: 2px solid;
     padding: 5px;
     margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 .log {
@@ -85,7 +88,9 @@ nav ul li a {
 
 .undernav ul li {
     margin: 2rem 4rem;
-    font-size: 25px;
+    font-size: 30px;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .line {
@@ -107,7 +112,7 @@ section {
 }
 */
 .slider {
-    margin-top: 20rem;
+    margin-top: 14rem;
     width: 100vw;
     height: 500px;
     border-radius: 10px;
@@ -139,15 +144,15 @@ section {
 .navigation-manual {
     position: absolute;
     width: 100%;
-    margin-top: 28.7rem;
+    margin-top: 440px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn {
-    border: 2px solid;
-    padding: 5px;
-    border-radius: 10px;
+    border: 5px solid #707070;
+    padding: 10px;
+    border-radius: 20px;
     cursor: pointer;
     transition: 1s;
 }
@@ -157,7 +162,7 @@ section {
 }
 
 .manual-btn:hover {
-    background: black;
+    background: #AEAEAE;
 }
 
 #radio1:checked ~ .first {
@@ -179,13 +184,13 @@ section {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 440px;
 }
 
 .navigation-auto div {
-    border: 2px solid;
-    padding: 5px;
-    border-radius: 10px;
+    border: 5px solid #707070;
+    padding: 10px;
+    border-radius: 20px;
     transition: 1s;
 }
 
@@ -194,26 +199,31 @@ section {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: black;
+    background: #AEAEAE;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: black;
+    background: #AEAEAE;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: black;
+    background: #AEAEAE;
 }
 
 .intro {
     margin-top: 10rem;
+    padding-bottom: 10rem;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .intro h1 {
     color: #A62E44;
+    font-family: 'Great Vibes', cursive;
+    font-size: 90px;
 }
 
 footer {
@@ -235,11 +245,14 @@ footer p {
 
 .socials {
     text-align: center;
-    margin-top: -1rem;
     font-size: 20px;
     margin-right: 5rem;
 }
 
 .socials img {
     padding: 1rem
+}
+
+.instafeed {
+    margin-top: 5rem;
 }
