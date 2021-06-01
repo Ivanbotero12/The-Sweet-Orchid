@@ -80,6 +80,8 @@ nav ul li a {
     display: inline-flex;
 }
 
+/* Undernav og Styling */
+
 .undernav {
     background: #fff;
     justify-content: center;
@@ -110,16 +112,7 @@ nav ul li a {
     display: inline-block;
     float: left;
 }
-/*
-section {
-    margin-top: 25rem;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
+
 .slider {
     margin-top: 14rem;
     width: 100vw;
@@ -149,7 +142,7 @@ section {
     height: 500px;
 }
 
-/* css for manual slide navigation */
+/* Slide bar - manual */
 
 .navigation-manual {
     position: absolute;
@@ -188,7 +181,7 @@ section {
     margin-left: -40%;
 }
 
-/* css for automatic navigation */
+/* Slide bar - automatic */
 
 .navigation-auto {
     position: absolute;
@@ -222,6 +215,8 @@ section {
     background: #AEAEAE;
 }
 
+/* Velkomsttekst */
+
 .intro {
     margin-top: 10rem;
     padding-bottom: 10rem;
@@ -237,6 +232,8 @@ section {
     font-family: 'Great Vibes', cursive;
     font-size: 90px;
 }
+
+/* Footer med kontakt info og socials */
 
 footer {
     background: #2B2B2B;
@@ -254,6 +251,8 @@ footer p {
 .kontakt {
     margin-left: 5rem;
 }
+
+/* Socials */
 
 .socials {
     text-align: center;
