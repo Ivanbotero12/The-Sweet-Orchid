@@ -22,19 +22,28 @@ header {
 
 .logo {
     float: left;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .logo img {
-    width: 10rem;
-    padding: 2.3rem 1rem 0.4rem;
+    width: 5rem;
+    padding: 1rem 3rem 1rem;
 }
 
 .logo a {
     text-decoration: none;
-    font-size: 30px;
     color: black;
-    letter-spacing: 5px;
-    padding: 2.2rem 1.5rem;
+    padding: 0rem 2rem;
+}
+
+.logo h1 {
+    color: #707070;
+    font-size: 50px;
+    font-family: 'Cormorant Infant';
+    position: absolute;
+    left: 45%;
 }
 
 /*Navn baren med opret konto og log ind*/
@@ -50,10 +59,6 @@ header {
     margin-top: 1rem;
 }
 
-.log {
-    margin-right: 3rem;
-}
-
 nav ul {
     float: right;
 }
@@ -66,9 +71,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     padding: 0rem 2rem;
     color: black;
+}
+
+.search-icon {
+    display: inline-flex;
 }
 
 .undernav {
@@ -132,6 +141,7 @@ section {
 .slide {
     width: 20%;
     transition: 2s;
+    z-index: -1;
 }
 
 .slide img {
@@ -147,6 +157,7 @@ section {
     margin-top: 440px;
     display: flex;
     justify-content: center;
+    z-index: -1;
 }
 
 .manual-btn {
@@ -185,6 +196,7 @@ section {
     width: 100%;
     justify-content: center;
     margin-top: 440px;
+    z-index: -1;
 }
 
 .navigation-auto div {
