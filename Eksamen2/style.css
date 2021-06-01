@@ -113,6 +113,8 @@ nav ul li a {
     float: left;
 }
 
+/* Slide bar */
+
 .slider {
     margin-top: 14rem;
     width: 100vw;
@@ -142,7 +144,7 @@ nav ul li a {
     height: 500px;
 }
 
-/* Slide bar - manual */
+/* Slide bar - manual navigation */
 
 .navigation-manual {
     position: absolute;
@@ -181,7 +183,7 @@ nav ul li a {
     margin-left: -40%;
 }
 
-/* Slide bar - automatic */
+/* Slide bar - automatic navigation */
 
 .navigation-auto {
     position: absolute;
