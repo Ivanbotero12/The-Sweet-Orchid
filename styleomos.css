@@ -41,9 +41,12 @@ header {
   position: absolute;
   left: 43%;
 }
-/* Beskrivelse af teksten */
+/* Tekst og beskrivelse */
  .historie {
 margin-top: 20rem;
+text-align: center;
+
+
  }
 
 /*Navn baren med opret konto og log ind*/
