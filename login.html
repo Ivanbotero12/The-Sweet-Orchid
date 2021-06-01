@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Side</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylekonti.css">
+</head>
+
+<body>
+    <!-- Knap til brug af Login Pop-up -->
+    <!-- Byttes ud med knap på aktuel side -->
+    <div class="center">
+        <button id="show-login">Login</button>
+    </div>
+
+    <!-- Pop-Up Vinduet -->
+        <div class="popup popup-login">
+            <div class="close-btn">&times;</div>
+            <!-- Konto Ikonet -->
+            <div class="picture-login">
+                <img src="./images/konti-ikon.png" alt="login" height="70px">
+            </div>
+            <div class="form">
+                <div class="labels">
+                    <!-- Brugernavn eller Email -->
+                    <div class="form-element">
+                        <label for="email"></label>
+                        <input type="text" id="email" placeholder="Brugernavn eller Email...">
+                    </div>
+                    <!-- Password -->
+                    <div class="form-element">
+                        <label for="password"></label>
+                        <input type="password" id="password" placeholder="Kodeord...">
+                    </div>
+                </div>
+                <!-- Login Knappen -->
+                <div class="form-element">
+                    <button>Log in</button>
+                </div>
+            </div>
+        </div>
+
+<!-- Script -->
+<script src="jquery-3.6.0.min.js"></script>
+<script src="javakonti.js"></script>
+
+</body>
+
+</html>
