@@ -243,6 +243,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    right: 0;
+    left: 0;
+    position: absolute;
 }
 
 footer p {
