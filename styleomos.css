@@ -50,8 +50,8 @@ line-height: 2rem;
 
  }
  .citat {
-  text-align: center;
-  line-height: 2rem;
+  font-weight: bold;
+  line-height: 0rem;
   
   
    }
