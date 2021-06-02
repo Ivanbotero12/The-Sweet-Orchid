@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!--Header-->
+
+
+    <header>
+
+        <div class="wrapper-header">
+
+            <div class="logo">
+                
+                <a href="index.html">
+                    <img src="./billeder/logo.png" alt="The Sweet Orchid">
+                </a>
+
+                <H1>The Sweet Orchid</H1>
+            </div>
+
+            <nav>
+
+                <ul>
+
+                    <li class="search-icon">
+                        <div>
+                            <img src="./billeder/search.png" alt="search" width="20px">
+                        </div>
+                        <input type="search" placeholder="Search">
+                    </li>
+                    <li><a class="opret" href="#" id="show-opret">Opret Konto</a></li>
+                    
+                    <!-- --------------------------------------------- -->
+                    <!-- PopupVindue for Opret Konto -->
+                    <!-- ID for Opret konto skal være "show-opret" ovenover -->
+
+                    <!-- Pop-Up Vinduet -->
+                    <div class="popup popup-opret">
+                        <div class="close-btn">&times;</div>
+                        <div class="opret-konti">
+                            <div class="picture-opret">
+                                <img src="./billeder/konti-ikon.png" alt="opret konto" height="250px">
+                            </div>
+                            <div class="form-element-opret">
+                                <button>Opret Konto</button>
+                            </div>
+                        </div>
+
+                        <!-- De 4 tekstfelter -->
+                        <div class="form">
+                            <div>
+
+                            <!-- Brugernavn -->
+                                <div class="form-element username">
+                                    <label for="name"></label>
+                                    <input type="text" id="name" placeholder="Brugernavn">
+                                </div>
+
+                            <!-- Fulde Navn -->
+                                <div class="form-element">
+                                    <label for="fullname"></label>
+                                    <input type="text" id="name" placeholder="Fulde Navn">
+                                </div>
+
+                            <!-- Email -->
+                                <div class="form-element">
+                                    <label for="email"></label>
+                                    <input type="text" id="email" placeholder="Email">
+                                </div>
+
+                            <!-- Password -->
+                                <div class="form-element">
+                                    <label for="password"></label>
+                                    <input type="password" id="password" placeholder="Kodeord">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tilføjes under Opret Konto knappen i Headeren -->
+                    <!-- --------------------------------------------- -->
+                    
+                    <li><a class="log" href="#" id="show-login">Log ind</a></li>
+
+                    <!-- --------------------------------------------- -->
+                    <!-- PopupVindue for Login -->
+                    <!-- ID for Login skal være "show-login" ovenover -->
+
+                    <!-- Pop-Up Vinduet -->
+                        <div class="popup popup-login">
+                            <div class="close-btn">&times;</div>
+
+                            <!-- Konto Ikonet -->
+                            <div class="picture-login">
+                                <img src="./billeder/konti-ikon.png" alt="login" height="120px">
+                            </div>
+                            <div class="form">
+                                <div class="labels">
+
+                                    <!-- Brugernavn eller Email -->
+                                    <div class="form-element">
+                                        <label for="email"></label>
+                                        <input type="text" id="email" placeholder="Brugernavn eller Email...">
+                                    </div>
+
+                                    <!-- Password -->
+                                    <div class="form-element">
+                                        <label for="password"></label>
+                                        <input type="password" id="password" placeholder="Kodeord...">
+                                    </div>
+                                </div>
+                                
+                                <!-- Login Knappen -->
+                                <div class="form-element">
+                                    <button>Log in</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <!-- Tilføjes under Login knappen i Headeren -->
+                    <!-- --------------------------------------------- -->
+
+                </ul>
+                
+            </nav>
+
+        </div>
+
+
+<!-- Undernav - Navigering på siden -->
+
+
+        <div class="undernav">
+
+            <nav>
+
+                <ul>
+                    
+                    <li>
+                        Forside
+                    </li>
+
+                    <li>
+                        Om os
+                    </li>
+                    
+                    <li>
+                        Blog
+                    </li>
+                    
+                    <li>
+                        Inspiration
+                    </li>
+                    
+                    <li>
+                        Butik
+                    </li>
+
+                    <div class="line"></div>
+
+                    <li>
+
+                        <img src="./billeder/kurv.png" width="30px" height="30px" alt="kurv"> Kurv
+                    </li>
+                
+                </ul>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+
+<!-- Slider -->
+ 
+
+    <section>
+
+        <div class="slider">
+
+            <div class="slides"> 
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+
+                    <img src="./billeder/1.png" alt=""> 
+
+                </div>
+
+                <div class="slide">
+                    
+                    <img src="./billeder/2.png" alt=""> 
+
+                </div>
+
+                <div class="slide">
+                    
+                    <img src="./billeder/3.png" alt=""> 
+
+                </div>
+
+                <div class="navigation-auto">
+                    
+                    <div class="auto-btn1"></div>              
+                    <div class="auto-btn2"></div>              
+                    <div class="auto-btn3"></div> 
+
+                </div>
+
+                <div class="navigation-manual">
+                    
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!-- Velkomsttekst -->
+
+
+    <section class="intro">
+
+        <div>
+            <h1>Velkommen</h1>
+
+            <p>Her hos The Sweet orchid kan vi med glæde byde dig velkommen til vores butik hvor vi har et stort udvalg af gaver, søde sager, pynt mm. Vi håber du finder det dit hjerte begære her hos os! 
+                Vi glæder os til at stå for pynten til dit event eller for gaven til dine kære.
+                
+                
+                Nedefor kan du se vores Instagram med billeder fra tideligere events.</p>
+
+        </div>
+
+        <div class="instafeed">
+
+            <img src="./billeder/ig1.png" alt="Instagram">
+
+        </div>
+
+    </section>
+
+
+<!-- Instagrams feed -->
+
+<!--
+
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+-->
+
+<!--
+
+    <h1 style="text-align: center">Show Instagram Feed on your Website</h1>
+    <div id="instafeed-container"></div>
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/ivan.tiago/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+<script type="text/javascript">
+var userFeed = new Instafeed({
+    get: 'user',
+    target: "instafeed-container",
+    resolution: 'low_resolution',
+    accessToken: 'YOUR_INSTAGRAM_ACCESS_TOKEN_GOES_HERE'
+});
+userFeed.run();
+</script>
+
+-->
+
+<!-- Script til slider-->
+
+
+<script type="text/javascript">
+
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 3){
+            counter = 1;
+        }
+    }, 5000);
+
+</script>
+
+<!-- --------------------------------------------- -->
+<!-- link til Script for Popup vinduer for Login og Opret Konto -->
+
+<script src="javakonti.js"></script>
+
+<!-- Tilføjes i bunden ved Scriptene -->
+<!-- --------------------------------------------- -->
+
+<!-- Footer Area med kontakt os socials -->
+
+
+<footer>
+    
+    <p class="kontakt">Copenhagen <br> 60 51 76 87 <br> Thesweetorchid.Info@gmail.com Designet af opida.dk <br> | Copyright 2020 The Sweet Orchid</p>
+
+    <div class="socials">
+        <p>Socials</p>
+        <img src="./billeder/ig2.png" alt="Instagram" width="50px" height="50px">
+        <img src="./billeder/fb.png" alt="facebook" width="50px" height="50px">
+    </div>
+
+</footer>
+
+</body>
+</body>
+</html>
