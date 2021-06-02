@@ -123,6 +123,7 @@ font-weight: 300;
 font-style: italic;
 line-height: 0rem;
 text-align: center;
+color: #AFAFAF;
 } 
 /*styling af overskrifter*/
 h1 {
@@ -163,7 +164,7 @@ padding: 20px;
 font-size: 30px;
 text-align: center;
 } 
-/* Tekst og beskrivelse */
+/* Styling af sektion med tekst*/
 .kreativ {
   margin-top: 1rem;
   text-align: center;
@@ -178,6 +179,7 @@ padding: 2rem;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+bottom: 0;
 }
 
 footer p {
