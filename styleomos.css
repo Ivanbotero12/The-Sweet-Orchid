@@ -141,7 +141,7 @@ color: #AFAFAF;
 /*styling af overskrifter*/
 h1 {
 font-family: 'Cormorant Infant', serif;
-font-weight: 600;
+font-size: 2rem;
 text-align: center;
 } 
 /*Styling af brødtekst*/
@@ -181,8 +181,16 @@ text-align: center;
   margin-top: 1rem;
   text-align: center;
   line-height: 1.5rem;
-  margin-bottom: 1.3rem ;
+  margin-bottom: 6rem ;
+   
+}
+.kreativ h1{
+margin-bottom: 1rem;
 }   
+.kreativ p{
+padding: 1rem;
+font-weight: 500;
+}
 /* Footer med kontakt info og socials */
 
 footer {
@@ -214,3 +222,4 @@ margin-right: 5rem;
 .socials img {
 padding: 1rem
 }
+
