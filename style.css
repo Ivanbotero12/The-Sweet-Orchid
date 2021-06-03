@@ -117,6 +117,7 @@ nav ul li a {
 
 .intro{
     text-align: center;
+    margin-bottom: 6rem;
 }
 
 .intro img{
@@ -154,7 +155,8 @@ nav ul li a {
 
 .baby-shower-billeder{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -169,12 +171,9 @@ nav ul li a {
 /* Fødselsdags billeder */
 
 .fodselsdag-billeder{
-    justify-content: center;
     display: flex;
-}
-
-.fodselsdag-billeder img{
-    margin: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -203,7 +202,7 @@ nav ul li a {
 
 .bryllup-intro{
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-bottom: 6rem;
 }
 
@@ -223,6 +222,11 @@ nav ul li a {
 
 /* Bryllup billeder */
 
+.bryllups-billeder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 /* bryllup produkt tekst */
 
