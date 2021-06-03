@@ -1,0 +1,225 @@
+* {
+  margin: 0%;
+  padding: 0%;    
+  }
+
+
+/*Header Area - Desktop*/
+
+header {
+height: 150px;
+background: #fae9e9;
+width: 100%;
+position: fixed;
+top: 0;
+}
+
+/*Logo og styling*/
+
+.logo {
+float: left;
+display: inline-flex;
+align-items: center;
+flex-direction: row;
+}
+
+.logo img {
+width: 5rem;
+padding: 1rem 3rem 1rem;
+}
+
+.logo a {
+text-decoration: none;
+color: black;
+padding: 0rem 2rem;
+}
+
+.logo h1 {
+color: #707070;
+font-size: 50px;
+font-family: 'Cormorant Infant';
+position: absolute;
+left: 43%;
+}
+
+/*Navn baren med opret konto og log ind*/
+
+.wrapper-header nav ul {
+float: right;
+}
+
+.wrapper-header nav ul li {
+border-left: 2px solid;
+padding: 5px;
+margin-right: 2rem;
+margin-top: 1rem;
+}
+
+nav ul {
+float: right;
+}
+
+nav ul li {
+float: left;
+list-style: none;
+position: relative;
+}
+
+nav ul li a {
+text-decoration: none;
+font-size: 15px;
+padding: 0rem 2rem;
+color: black;
+}
+
+.search-icon {
+display: inline-flex;
+}
+
+/* Undernav og Styling */
+
+.undernav {
+background: #fff;
+justify-content: center;
+margin-top: 8rem;
+float: none;
+display: flex;
+border-bottom: 1px solid;
+}
+
+.undernav ul {
+margin: 0;
+padding: 0;
+margin-top: 1rem;
+}
+
+.undernav ul li {
+margin: 2rem 4rem;
+font-size: 30px;
+padding-left: 6rem;
+padding-right: 6rem;
+}
+
+.line {
+border-left: 2px solid;
+height: 30px;
+padding-top: 2rem;
+margin-top: 1rem;
+display: inline-block;
+float: left;
+} 
+/* Tekst og beskrivelse */
+.historie {
+  margin-top: 25rem;
+  text-align: center;
+  margin-bottom: 1.3rem ;
+}  
+.historie h1
+{
+margin-top: 5rem;
+  
+} 
+.historie p {
+font-family:'Raleway', sans-serif;
+text-align: center;
+padding: 1rem;
+margin-left: 25%;
+margin-right: 25%;
+font-weight: 500;
+
+ 
+}
+/*styling af citat*/
+.citat {
+  
+font-family: 'Cormorant Infant', serif;
+font-weight: 300;
+font-style: italic;
+text-align: center;
+color: #AFAFAF;
+} 
+/*styling af overskrifter*/
+h1 {
+font-family: 'Cormorant Infant', serif;
+font-size: 2rem;
+text-align: center;
+} 
+/*Styling af brødtekst*/
+p {
+font-family:'Raleway', sans-serif;
+text-align: center;
+}
+
+/*Styling af grid til billeder af teamet*/
+.grid-team {
+margin-top: 1rem;  
+display: grid;
+grid-column-gap: 50px;
+grid-template-columns: auto auto auto;
+padding: 10px;
+
+}
+.grid-billede {
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+/*Styling af grid til navne under billederne*/      
+.grid-navne {
+display: grid;
+grid-column-gap: 50px;
+grid-template-columns: auto auto auto;
+padding: 10px;
+}
+.grid-navn {
+padding: 20px;
+font-size: 30px;
+text-align: center;
+} 
+/* Styling af sektion med tekst*/
+.kreativ {
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-bottom: 6rem ;
+   
+}
+.kreativ h1{
+margin-bottom: 1rem;
+}   
+.kreativ p{
+padding: 1rem;
+font-weight: 500;
+}
+/* Footer med kontakt info og socials */
+
+footer {
+background: #2B2B2B;
+padding: 2rem;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+bottom: 0;
+}
+
+footer p {
+color: #fff;
+font-size: 20px;
+}
+
+.kontakt {
+margin-left: 5rem;
+}
+
+/* Socials */
+
+.socials {
+text-align: center;
+font-size: 20px;
+margin-right: 5rem;
+}
+
+.socials img {
+padding: 1rem
+}
+
